@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.logo {
+  height: 54px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/logo-white.png);
+}
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
