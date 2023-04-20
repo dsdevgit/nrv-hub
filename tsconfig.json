@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "incremental": true,
     "target": "es2021",
     "module": "commonjs",
@@ -7,13 +8,20 @@
     "jsx": "react-jsx",
     "strict": true,
     "sourceMap": true,
-    "baseUrl": "./src",
+    "allowJs": true,
+    "skipLibCheck": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "allowJs": true,
-    "outDir": ".erb/dll"
+    "isolatedModules": true,
+    "outDir": ".erb/dll",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
   },
-  "exclude": ["test", "release/build", "release/app/dist", ".erb/dll"]
+  "include": [
+    "src"
+  ],
+  "exclude": ["test", "release/build", "release/app/dist", ".erb/dll"],
+
 }

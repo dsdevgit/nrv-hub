@@ -6,7 +6,7 @@ import {
   Link,
   useLocation,
 } from 'react-router-dom';
-import './App.css';
+import './index.css';
 import {
   DeploymentUnitOutlined,
   SettingOutlined,
@@ -14,8 +14,8 @@ import {
   ReadOutlined,
 } from '@ant-design/icons';
 import { Layout, Menu, theme, Row, Typography } from 'antd';
-import { DocsPage, ModelsPage, SDKPage, SettingsPage } from './Pages';
-import { Copyrights } from './Shared';
+import { Copyrights } from 'renderer/shared';
+import { DocsPage, ModelsPage, SDKPage, SettingsPage } from 'renderer/pages';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { Title } = Typography;
