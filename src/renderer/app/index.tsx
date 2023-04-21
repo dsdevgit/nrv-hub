@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  MemoryRouter as Router,
-  Routes,
-  Route,
-  Link,
-  useLocation,
-} from 'react-router-dom';
+
 import './index.css';
 import {
   DeploymentUnitOutlined,
@@ -14,7 +8,7 @@ import {
   ReadOutlined,
 } from '@ant-design/icons';
 import { Layout, Menu, theme, Row, Typography } from 'antd';
-import { Copyrights } from 'renderer/shared';
+import { Copyrights } from 'renderer/widgets/Copyrights';
 import { DocsPage, ModelsPage, SDKPage, SettingsPage } from 'renderer/pages';
 
 const { Header, Content, Footer, Sider } = Layout;
