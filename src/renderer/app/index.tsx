@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './index.css';
+
 import {
   DeploymentUnitOutlined,
   SettingOutlined,
@@ -8,10 +9,11 @@ import {
   ReadOutlined,
 } from '@ant-design/icons';
 import { Layout, Menu, theme, Row, Typography } from 'antd';
-import { Copyrights } from 'renderer/widgets/Copyrights';
+import Footer from 'renderer/widgets/footer/ui';
 import { DocsPage, ModelsPage, SDKPage, SettingsPage } from 'renderer/pages';
-
-const { Header, Content, Footer, Sider } = Layout;
+import { useLocation, Link, MemoryRouter as Router } from 'react-router-dom';
+import Routing from 'renderer/pages';
+const { Header, Content, Sider } = Layout;
 const { Title } = Typography;
 
 const menuItems = [
@@ -72,16 +74,9 @@ export default function App() {
         <Layout>
           <Head />
           <Content style={{ margin: '24px 16px 0' }}>
-            <Routes>
-              <Route path="/" element={<ModelsPage />} />
-              <Route path="/sdk" element={<SDKPage />} />
-              <Route path="/docs" element={<DocsPage />} />
-              <Route path="/settings" element={<SettingsPage />} />
-            </Routes>
+            <Routing />
           </Content>
-          <Footer style={{ textAlign: 'center' }}>
-            <Copyrights />
-          </Footer>
+          <Footer />
         </Layout>
       </Layout>
     </Router>

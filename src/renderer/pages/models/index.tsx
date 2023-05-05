@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { ReactElement, FC } from 'react';
 
-export const ModelsPage = () => {
+const ModelsPage: FC<{}> = (): ReactElement => {
   return <>sdfsdfsdfds</>;
 };
+
+export default ModelsPage;

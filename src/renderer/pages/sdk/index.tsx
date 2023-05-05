@@ -1,5 +1,7 @@
 import React from 'react';
 
-export const SDKPage = () => {
+const SDKPage = () => {
   return <h3>SDKPage</h3>;
 };
+
+export default SDKPage;

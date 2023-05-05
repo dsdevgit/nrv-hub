@@ -8,6 +8,7 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
     'import/no-import-module-exports': 'off',
+    "unused-imports/no-unused-imports": "off"
     'react/function-component-definition': [
       2,
       {

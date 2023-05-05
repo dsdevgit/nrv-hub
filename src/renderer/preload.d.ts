@@ -12,4 +12,7 @@ declare module '*.scss' {
   export = content;
 }
 
+declare module '*.module.css';
+declare module '*.module.scss';
+
 export {};
