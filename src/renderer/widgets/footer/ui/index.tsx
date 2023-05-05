@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <Layout.Footer className={styles.root}>
       <span>{year} © Nuclear Reactions Video</span>
-      );
     </Layout.Footer>
   );
 };

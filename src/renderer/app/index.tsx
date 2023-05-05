@@ -10,7 +10,6 @@ import {
 } from '@ant-design/icons';
 import { Layout, Menu, theme, Row, Typography } from 'antd';
 import Footer from 'renderer/widgets/footer/ui';
-import { DocsPage, ModelsPage, SDKPage, SettingsPage } from 'renderer/pages';
 import { useLocation, Link, MemoryRouter as Router } from 'react-router-dom';
 import Routing from 'renderer/pages';
 const { Header, Content, Sider } = Layout;
