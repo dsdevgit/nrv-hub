@@ -11,7 +11,7 @@ import {
 import { Layout, Menu, theme, Row, Typography } from 'antd';
 import Footer from 'renderer/widgets/footer/ui';
 import { useLocation, Link, MemoryRouter as Router } from 'react-router-dom';
-import Routing from 'renderer/pages';
+import Routing from 'renderer/views';
 const { Header, Content, Sider } = Layout;
 const { Title } = Typography;
 
