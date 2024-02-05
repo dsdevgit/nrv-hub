@@ -1,5 +1,5 @@
-<h1>WIP</h1
->
+# The Project is in developing progress!
+
 <img src="assets/preview.png">
 
 <p>
